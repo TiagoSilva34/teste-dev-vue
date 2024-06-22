@@ -1,9 +1,8 @@
 <script setup>
 </script>
+
 <template>
     <form class="form-control">
-        <div class="form-input-control">
-            <slot></slot>
-        </div>
+        <slot></slot>
     </form>
 </template>

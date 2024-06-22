@@ -1,14 +1,15 @@
 <script setup>
-import TheInput from './TheInput.vue'
 import SearchIcon from './icons/search-521.vue'
 import TheButton from './TheButton.vue'
 </script>
 
 <template>
     <header class="header">
-        <TheButton class="btn-add">cadastrar fonecedor</TheButton>
+        <router-link class="btn-add" to="/cadastrar">Cadastrar fonecedor</router-link>
         <div>
-            <img class="header-logo" src="https://revendamais.com.br/wp-content/uploads/2023/09/logo-revenda-mais.png" alt="Logo"/>
+            <router-link to="/">
+                <img class="header-logo" src="https://revendamais.com.br/wp-content/uploads/2023/09/logo-revenda-mais.png" alt="Logo"/>
+            </router-link>
             <div class="header-container-input">
                 <SearchIcon class="search-icon" #icon />
                 <input type="text" class="search" placeholder="Busque por nome ou cpf" />
@@ -16,7 +17,6 @@ import TheButton from './TheButton.vue'
         </div>
     </header>
 </template>
-
 
 <style scoped>
     .header {
@@ -32,8 +32,8 @@ import TheButton from './TheButton.vue'
         color: #b00811;
         border: 1px solid #b00811;
         background-color: #FFF;
-        padding: .6rem 1.2rem;
-        width: 160px;
+        padding: .4rem 1rem;
+        width: 180px;
         position: absolute;
         right: 8px;
         top: 8px;
@@ -62,7 +62,7 @@ import TheButton from './TheButton.vue'
     }
 
     .search {
-        padding: .4rem 0;
+        padding: .8rem 0;
         width: 100%;
         background-color: #eff5fb;
         border: 0;
