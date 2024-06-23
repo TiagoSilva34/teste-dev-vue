@@ -1,14 +1,5 @@
 {
-    "fornecedores": [
-        {
-            "id": 1,
-            "empresa": "Empresa 01",
-            "cnpj": "66.298.251/0001-02"
-        },
-        {
-            "id": 2,
-            "empresa": "Empresa 02",
-            "cnpj": "66.298.251/0001-02"
-        }
-    ]
+  "fornecedores": [
+   
+  ]
 }
