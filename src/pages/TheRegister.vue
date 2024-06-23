@@ -22,7 +22,7 @@ function getValidationCpfCnpj(value) {
       </div>
       <div>
         <input type="text" placeholder="Digite o cep" />
-        <input type="text" placeholder="Digite o estadoa" />
+        <input type="text" placeholder="Digite o estado" />
         <input type="text" placeholder="Digite a cidade" />
         <input type="text" placeholder="digite um CPF / CNPJ" :value="text" @input="event => text = getValidationCpfCnpj(event.target.value)"/>
       </div>
