@@ -48,4 +48,24 @@ import TheButton from './TheButton.vue'
         margin-bottom: 1.2rem;
         margin-top: 2.5rem;
     }
+
+    @media (min-width: 900px) {
+        .header {
+            padding: 0;
+            align-items: center;
+        }
+        
+        .header > div {
+            align-items: flex-start;
+        }
+
+        .header > div a {
+            position: relative;
+            bottom: 15px;
+        }
+
+        .header-logo {
+            width: 200px;
+        }
+    }
 </style>

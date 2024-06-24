@@ -1,5 +1,15 @@
 {
   "fornecedores": [
-   
+    {
+      "id": "4b76",
+      "factory": "Empresa 05",
+      "contact": "(21) 97303-3009",
+      "cep": "05424-020",
+      "state": "SP",
+      "city": "São Paulo",
+      "cpf": "111.111.111-11",
+      "cnpj": "",
+      "option": "cpf"
+    }
   ]
 }

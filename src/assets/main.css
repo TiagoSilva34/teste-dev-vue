@@ -10,6 +10,14 @@
   flex-direction: column;
 }
 
+button, a {
+  cursor: pointer;
+}
+
+button {
+  font-weight: 400;
+}
+
 a,
 .green {
   text-decoration: none;
