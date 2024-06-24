@@ -21,6 +21,8 @@ npm install
 ```sh
 npm run dev
 ```
+### Comando para executar bd local db.json para testar crud
+npx json-server db.json
 
 ### Compile and Minify for Production
 
